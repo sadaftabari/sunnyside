@@ -1,0 +1,96 @@
+/* header */
+header {
+  background-image: url("../../public/images/desktop/image-header.jpg");
+  height: 100dvh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  max-width:100vw;
+}
+.header-info {
+  margin-top: 5rem;
+}
+header nav a {
+  transition: 0.4s;
+  border-radius: 40px;
+}
+header nav a:hover {
+  color: black !important;
+  background-color: white;
+}
+/* main */
+.main-explain {
+  height: 100%;
+  padding: 50px;
+}
+/* profile card */
+
+.card {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.col-md-4:nth-child(1) .btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url(../../public/images/image-emily.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-md-4:nth-child(2) .btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url(../../public/images/image-jennie.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-md-4:nth-child(3) .btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url(../../public/images/image-thomas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.text span {
+  font-size: 13px;
+  color: #545454;
+  font-weight: 500;
+}
+.join {
+  font-size: 14px;
+  color: #9b9696;
+  font-weight: bold;
+}
+
+/* finished profile card */
+
+/* footer */
+
+.footer ul {
+  list-style-type: none;
+}
+footer {
+  background-color: #90d4c5;
+}
+footer ul li a {
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  border-radius: 40px;
+  padding: 5px;
+}
+footer ul li:hover a {
+  background-color: white;
+  color: hsl(167, 40%, 24%);
+}
+footer svg:hover path {
+  fill: antiquewhite;
+}
+/* finished footer */
